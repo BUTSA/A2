@@ -18,6 +18,7 @@
 		1A4D999916E062820027660D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4D999816E062820027660D /* Default-568h@2x.png */; };
 		1A4D999C16E062820027660D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4D999A16E062820027660D /* MainStoryboard.storyboard */; };
 		1A4D999F16E062820027660D /* CalcualatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D999E16E062820027660D /* CalcualatorViewController.m */; };
+		1A4D99A716E062A60027660D /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D99A616E062A60027660D /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		1A4D999B16E062820027660D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		1A4D999D16E062820027660D /* CalcualatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcualatorViewController.h; sourceTree = "<group>"; };
 		1A4D999E16E062820027660D /* CalcualatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcualatorViewController.m; sourceTree = "<group>"; };
+		1A4D99A516E062A60027660D /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		1A4D99A616E062A60027660D /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				1A4D999216E062820027660D /* CalcualatorAppDelegate.m */,
 				1A4D999A16E062820027660D /* MainStoryboard.storyboard */,
 				1A4D999D16E062820027660D /* CalcualatorViewController.h */,
+				1A4D99A516E062A60027660D /* CalculatorBrain.h */,
+				1A4D99A616E062A60027660D /* CalculatorBrain.m */,
 				1A4D999E16E062820027660D /* CalcualatorViewController.m */,
 				1A4D998916E062820027660D /* Supporting Files */,
 			);
@@ -177,6 +182,7 @@
 				1A4D998F16E062820027660D /* main.m in Sources */,
 				1A4D999316E062820027660D /* CalcualatorAppDelegate.m in Sources */,
 				1A4D999F16E062820027660D /* CalcualatorViewController.m in Sources */,
+				1A4D99A716E062A60027660D /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
